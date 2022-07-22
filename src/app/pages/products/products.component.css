@@ -1,0 +1,12 @@
+.products{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+app-product {
+  box-sizing: border-box;
+  width: 28%;
+  margin: 1% 2%;
+  padding: 2%;
+  border-bottom: solid gainsboro;
+}

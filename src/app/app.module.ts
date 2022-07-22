@@ -3,18 +3,30 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeadersComponent } from './headers/headers.component';
-import { SlidebarComponent } from './slidebar/slidebar.component';
+
+import { MenuComponent } from './menu/menu.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material/material.module';
+import { HttpClientModule } from '@angular/common/http';
+import { CartComponent } from './shared/components/cart/cart.component'
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeadersComponent,
-    SlidebarComponent
+    MenuComponent,
+    CartComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    HttpClientModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
