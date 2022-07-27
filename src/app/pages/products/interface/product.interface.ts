@@ -5,4 +5,5 @@ price:number;
 description:string;
 categoryId:number;
 stock: number;
+qty:number ;
 }

@@ -1,0 +1,32 @@
+.container{
+  width: 100%;
+  margin: auto;
+}
+
+.tabla{
+
+  width: 100%;
+}
+
+th{
+  font-size: 20px;
+  color: white;
+  font-size: 15px;
+  background-color: #673ab7;
+}
+td {
+  font-size: 15px;
+  box-sizing: border-box;
+  padding: 0% 2%;
+}
+
+.containerTotal {
+  width: 90%;
+  margin: auto;
+}
+.total{
+  margin-top: 20px;
+  font-size: 25px;
+
+
+}

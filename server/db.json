@@ -124,6 +124,65 @@
       "shippingAddress": "Av. de la Granvia de Hospitalet, 115",
       "city": "Barcelona",
       "pickup": true
+    },
+    {
+      "name": "johan",
+      "shippingAdress": "calle 12",
+      "city": "medellin",
+      "date": "27/7/2022",
+      "pickup": true,
+      "id": 2
+    },
+    {
+      "name": "johan",
+      "store": "johan",
+      "date": "27/7/2022",
+      "pickup": false,
+      "id": 3
+    },
+    {
+      "name": "johan",
+      "shippingAdress": "calle 12",
+      "city": "medellin",
+      "date": "27/7/2022",
+      "pickup": true,
+      "id": 4
+    },
+    {
+      "name": "g",
+      "store": "",
+      "date": "27/7/2022",
+      "pickup": false,
+      "id": 5
+    },
+    {
+      "name": "a",
+      "store": "",
+      "date": "27/7/2022",
+      "pickup": false,
+      "id": 6
+    },
+    {
+      "name": "a",
+      "store": "",
+      "date": "27/7/2022",
+      "isDelivery": false,
+      "id": 7
+    },
+    {
+      "name": "a",
+      "shippingAdress": "",
+      "city": "",
+      "date": "27/7/2022",
+      "isDelivery": true,
+      "id": 8
+    },
+    {
+      "name": "johan",
+      "store": "johan",
+      "date": "27/7/2022",
+      "isDelivery": false,
+      "id": 9
     }
   ],
   "detailsOrders": [
@@ -132,6 +191,70 @@
       "orderId": 1,
       "quantity": 10,
       "productName": "Product name"
+    },
+    {
+      "details": [
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        }
+      ],
+      "orderId": 2,
+      "id": 2
+    },
+    {
+      "details": [
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        }
+      ],
+      "orderId": 3,
+      "id": 3
+    },
+    {
+      "details": [
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        }
+      ],
+      "orderId": 4,
+      "id": 4
+    },
+    {
+      "details": [],
+      "orderId": 5,
+      "id": 5
+    },
+    {
+      "details": [],
+      "orderId": 6,
+      "id": 6
+    },
+    {
+      "details": [],
+      "orderId": 7,
+      "id": 7
+    },
+    {
+      "details": [],
+      "orderId": 8,
+      "id": 8
+    },
+    {
+      "details": [
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        }
+      ],
+      "orderId": 9,
+      "id": 9
     }
   ]
 }

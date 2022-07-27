@@ -1,6 +1,7 @@
 <section class="carrito">
 </section>
 <section class="products">
-  <app-product (addCartClick)="addToCart(product)" [product] = "product"  *ngFor = "let product of products"></app-product>
+  
+  <app-product (addCartClick)="addToCart(product)" [product]="product" *ngFor="let product of products" ></app-product>
 </section>
 

@@ -1,3 +1,18 @@
 .spacer{
   flex: 1 1 auto;
 }
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+.cart{
+  box-sizing: border-box;
+  height: 100%;
+  padding:15px 0px 10px 10px;
+}
+.cart:hover{
+  transition: all 0.7s;
+  cursor: pointer;
+  background-color: rgb(99, 33, 161);
+}

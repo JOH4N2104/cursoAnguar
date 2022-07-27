@@ -8,7 +8,8 @@ import { MenuComponent } from './menu/menu.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { HttpClientModule } from '@angular/common/http';
-import { CartComponent } from './shared/components/cart/cart.component'
+import { CartComponent } from './shared/components/cart/cart.component';
+
 
 
 
@@ -17,6 +18,7 @@ import { CartComponent } from './shared/components/cart/cart.component'
     AppComponent,
     MenuComponent,
     CartComponent,
+   
 
   ],
   imports: [
