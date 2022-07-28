@@ -30,6 +30,7 @@ export class CheckoutComponent implements OnInit {
 
   onSubmit({ value: formData }: NgForm) {
     console.log(formData)
+    //insertamos los datos recogidos del formulario  a este nuevo objeto, ademas de añadirle fecha
     const data = {
       ...formData,
       date: this.getCurrentDate(),
@@ -48,6 +49,7 @@ export class CheckoutComponent implements OnInit {
 
   }
 
+  // se recorre el carrito con un for each y se sacan los datos necesarios para guardar los dtaless
   private prepareDetails() {
     console.log("preparando detalles")
     const details: Details[] = []

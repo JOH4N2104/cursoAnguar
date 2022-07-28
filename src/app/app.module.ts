@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { CartComponent } from './shared/components/cart/cart.component';
+import { InicioComponent } from './shared/inicio/inicio.component';
+
 
 
 
@@ -18,8 +20,7 @@ import { CartComponent } from './shared/components/cart/cart.component';
     AppComponent,
     MenuComponent,
     CartComponent,
-   
-
+    InicioComponent
   ],
   imports: [
     BrowserModule,

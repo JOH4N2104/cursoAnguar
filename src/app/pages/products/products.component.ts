@@ -10,7 +10,7 @@ import { ProductService } from './services/product.service';
   selector: 'app-products',
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.css'],
- 
+
 })
 
 export class ProductsComponent implements OnInit {
@@ -28,11 +28,11 @@ export class ProductsComponent implements OnInit {
 
   }
 
-
+//metodo que añade productos al carrito, llama el metodo de actualizar del servicio
+// este metodo se llama cada qque se active el evento que se manda con el output desde el componente product
   addToCart(product: product) {
     console.log('se adiciono al carrito ', product)
     this.shoppinCartSvc.updateCart(product)
-
   }
 
 
