@@ -34,7 +34,7 @@
   </div>
 
 <div class="container_button">
-  <button (click)="onSubmit(checkoutForm)"  [ngClass]="{'enabled': checkoutForm.form.valid, 'disabled': !checkoutForm.form.valid } "[disabled]="!checkoutForm.form.valid"  type="submit">
+  <button (click)="onSubmit(checkoutForm)"  [ngClass]="{'enabled': checkoutForm.form.valid, 'disabled': !checkoutForm.form.valid } "[disabled]="!checkoutForm.form.valid || cart.length==0"  type="submit">
     checkout
   </button>
 </div>

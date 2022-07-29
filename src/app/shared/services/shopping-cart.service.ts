@@ -59,6 +59,26 @@ private addToCart(product: product) {
 this.carritoSubject.next(this.products);
 }
 
+buscarIndexElemento(product: product){
+let i
+  for ( i = 0; i < this.products.length; i++) {
+    if(product.id == this.products[i].id){
+      break
+    }
+  }
+  return i;
+}
+
+deleteProduct( producto:product){
+
+  let index = this.buscarIndexElemento(producto);
+  this.products.splice(index, 1);
+  this.calcularCantidadDeProductos();
+  this.calcularlPrecioTotal();
+  console.log ("eliminando", this.products.length)
+
+}
+
 // resetea el carrito cada vez que se realiza una compra
 resetCart(){
   this.carritoSubject.next([]);

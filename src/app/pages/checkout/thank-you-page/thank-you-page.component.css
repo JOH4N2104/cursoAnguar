@@ -1,0 +1,17 @@
+.container{
+width: 50%;
+margin: 10% auto;
+height: 115px;
+background-color: rgb(196, 196, 196);
+padding: 10%;
+box-shadow: 3px 3px 5px black;
+}
+h1{
+  font-size: 70px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+p{
+  margin-top: 20%;
+}

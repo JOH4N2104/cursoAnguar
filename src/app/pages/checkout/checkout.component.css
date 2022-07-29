@@ -52,6 +52,9 @@ p{
   transition: all 0.5s;
 
 }
+mat-radio-button{
+  margin-left: 20px;
+}
 
 .disabled{
   background-color: rgb(158, 158, 158);

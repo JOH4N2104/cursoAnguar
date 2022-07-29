@@ -6,18 +6,22 @@
           <th>Cantidad</th>
           <th>Precio</th>
           <th>$Total</th>
+          <th>#</th>
+
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let Item of cart$ | async ">
-          <strong><td>{{Item.name}}</td></strong>
+        <tr  *ngFor="let Item of cart$ | async ">
+
+          <strong><td class="name">{{Item.name}}</td></strong>
           <td>{{Item.qty}}</td>
           <td>{{Item.price}}$</td>
           <td>{{Item.qty * Item.price}}$</td>
+          <td (click)="deleteProduct(Item) "><mat-icon>delete_shopping_cart</mat-icon></td>
         </tr>
    </table>
    <div class="containetTotal">
-    <p class="total">Total: <span>{{total$ |async}}</span></p>
+    <p class="total">Total: <span>{{total$ |async}}$</span></p>
   </div>
 
 </div>

@@ -18,6 +18,11 @@ td {
   font-size: 15px;
   box-sizing: border-box;
   padding: 0% 2%;
+  background-color:rgb(230, 230, 230) ;
+}
+
+.name{
+  width: 40%;
 }
 
 .containerTotal {
